@@ -1,0 +1,29 @@
+﻿@using Fligth.Web.ViewModels.Users;
+@model UserInputViewModel
+@{
+    ViewData["Title"] = "Register";
+}
+
+<form asp-action="Create" asp-controller="Users">
+    <div class="register-grid">
+        <div>
+            <label asp-for="FirstName" style="display:block"></label>
+            <input asp-for="FirstName" class="firstname-input-box" />
+        </div>
+        <div>
+            <label asp-for="LastName" style="display:block"></label>
+            <input asp-for="LastName" class="firstname-input-box" />
+        </div>
+        <div>
+            <label asp-for="Password" style="display:block"></label>
+            <input asp-for="Password" type="password" class="firstname-input-box" />
+        </div>
+        <div>
+            <label asp-for="Email" style="display:block"></label>
+            <input asp-for="Email" class="firstname-input-box" />
+        </div>
+        <br />
+        <button type="submit">Create</button>
+    </div>
+</form>
+
