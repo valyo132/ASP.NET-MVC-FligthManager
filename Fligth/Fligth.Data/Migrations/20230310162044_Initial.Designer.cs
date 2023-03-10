@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace Fligth.Data.Migrations
 {
-    [DbContext(typeof(FligthConext))]
+    [DbContext(typeof(FligthManagerContext))]
     [Migration("20230310162044_Initial")]
     partial class Initial
     {

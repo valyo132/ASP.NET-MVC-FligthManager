@@ -13,6 +13,10 @@ namespace Fligth.Web.ViewModels.Users
         public string LastName { get; set; } = null!;
 
         [Required]
+        [StringLength(10)]
+        public string EGN { get; set; } = null!;
+
+        [Required]
         [MinLength(6)]
         [MaxLength(16)]
         public string Password { get; set; } = null!;

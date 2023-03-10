@@ -13,7 +13,7 @@ public class Program
         builder.Services.AddControllersWithViews();
 
         var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
-        builder.Services.AddDbContext<FligthConext>(opt =>
+        builder.Services.AddDbContext<FligthManagerContext>(opt =>
                 opt.UseSqlServer(connectionString));
 
         builder.Services.AddControllersWithViews();

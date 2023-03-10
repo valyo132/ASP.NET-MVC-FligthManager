@@ -6,6 +6,11 @@ namespace Fligth.Models
 {
     public class User
     {
+        public User()
+        {
+            this.UserReservations = new HashSet<UserReservation>();
+        }
+
         [Key]
         public int Id { get; set; }
 
@@ -26,5 +31,11 @@ namespace Fligth.Models
 
         [Required]
         public string Email { get; set; } = null!;
+
+        [Required]
+        [StringLength(10)]
+        public string EGN { get; set; } = null!;
+
+        public virtual ICollection<UserReservation> UserReservations { get; set; }
     }
 }

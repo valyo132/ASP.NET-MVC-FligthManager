@@ -8,32 +8,33 @@ namespace Fligth.Web.Controllers
 {
     public class UsersController : Controller
     {
-        private readonly FligthConext _context;
+        private readonly FligthManagerContext _context;
         private readonly IMapper _mapper;
 
-        public UsersController(FligthConext context, IMapper mapper)
+        public UsersController(FligthManagerContext context, IMapper mapper)
         {
             _context = context;
             _mapper = mapper;
         }
 
-        public IActionResult Index() 
+        public IActionResult Create()
         {
             return View();
         }
 
-        public IActionResult Create(UserInputViewModel obj)
+        [HttpPost]
+        public async Task<IActionResult> Create(UserInputViewModel obj)
         {
-            // TODO: Fix the RedirectToAction When there is not user created
-
             if (ModelState.IsValid)
             {
                 var user = _mapper.Map<User>(obj);
-                _context.Users.Add(user);
-                _context.SaveChanges();
+                await _context.Users.AddAsync(user);
+                await _context.SaveChangesAsync();
+
+                return RedirectToAction("Index", "Home");
             }
 
-            return RedirectToAction("Index", "Home");
+            return View(obj);
         }
     }
 }
