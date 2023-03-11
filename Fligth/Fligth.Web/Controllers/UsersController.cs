@@ -27,6 +27,12 @@ namespace Fligth.Web.Controllers
         {
             if (ModelState.IsValid)
             {
+                if (obj.Password.Length < 6 || obj.Password.Length > 16)
+                {
+                    ModelState.AddModelError("password", "password should be between 6 and 16 characters");
+                    return View(obj);
+                }
+
                 var user = _mapper.Map<User>(obj);
                 await _context.Users.AddAsync(user);
                 await _context.SaveChangesAsync();

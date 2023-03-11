@@ -580,7 +580,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Valentin Markov\\.nuget\\packages\\": {}
+    "C:\\Users\\valyo\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -588,11 +588,11 @@
       "projectUniqueName": "G:\\ASP.NET-MVC-FligthManager\\Fligth\\Fligth.Models\\Fligth.Models.csproj",
       "projectName": "Fligth.Models",
       "projectPath": "G:\\ASP.NET-MVC-FligthManager\\Fligth\\Fligth.Models\\Fligth.Models.csproj",
-      "packagesPath": "C:\\Users\\Valentin Markov\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\valyo\\.nuget\\packages\\",
       "outputPath": "G:\\ASP.NET-MVC-FligthManager\\Fligth\\Fligth.Models\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Valentin Markov\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\valyo\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -639,7 +639,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }
