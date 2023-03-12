@@ -8,7 +8,7 @@
     "net6.0": []
   },
   "packageFolders": {
-    "C:\\Users\\valyo\\.nuget\\packages\\": {}
+    "C:\\Users\\Valentin Markov\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -16,11 +16,11 @@
       "projectUniqueName": "G:\\ASP.NET-MVC-FligthManager\\Fligth\\Fligth.Web.ViewModels\\Fligth.Web.ViewModels.csproj",
       "projectName": "Fligth.Web.ViewModels",
       "projectPath": "G:\\ASP.NET-MVC-FligthManager\\Fligth\\Fligth.Web.ViewModels\\Fligth.Web.ViewModels.csproj",
-      "packagesPath": "C:\\Users\\valyo\\.nuget\\packages\\",
+      "packagesPath": "C:\\Users\\Valentin Markov\\.nuget\\packages\\",
       "outputPath": "G:\\ASP.NET-MVC-FligthManager\\Fligth\\Fligth.Web.ViewModels\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\valyo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Valentin Markov\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -61,7 +61,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\Fligth.Web.bundle.scp.css"
     },
     {
+      "Id": "G:\\ASP.NET-MVC-FligthManager\\Fligth\\Fligth.Web\\wwwroot\\css\\registerLayout.css",
+      "PackagePath": "staticwebassets\\css\\registerLayout.css"
+    },
+    {
       "Id": "G:\\ASP.NET-MVC-FligthManager\\Fligth\\Fligth.Web\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

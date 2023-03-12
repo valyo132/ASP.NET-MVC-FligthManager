@@ -1,0 +1,32 @@
+﻿@using Fligth.Web.ViewModels.Users;
+@model UserLogInInputVireModel
+@{
+    ViewData["Title"] = "LogIn";
+}
+
+<form asp-action="LogIn" asp-controller="Users" method="post">
+    <div class="register-grid">
+        @*<div asp-validation-summary="All"></div>*@
+        <div>
+            <label asp-for="Email" style="display:block"></label>
+            <input asp-for="Email" class="input-box" />
+            <br />
+            <span asp-validation-for="Email" style="color:red"></span>
+        </div>
+        <div>
+            <label asp-for="Password" style="display:block"></label>
+            <input asp-for="Password" type="password" class="input-box" />
+            <br />
+            <span asp-validation-for="Password" style="color:red"></span>
+        </div>
+        <br />
+        <button class="create-button" type="submit" style="display:block">Log in</button>
+    </div>
+</form>
+
+@section Scripts{
+    @{
+        <partial name="_ValidationScriptsPartial" />
+    }
+}
+

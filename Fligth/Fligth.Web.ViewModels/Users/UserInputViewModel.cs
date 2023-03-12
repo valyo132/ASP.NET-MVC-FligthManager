@@ -17,8 +17,7 @@ namespace Fligth.Web.ViewModels.Users
         public string EGN { get; set; } = null!;
 
         [Required]
-        [MinLength(6)]
-        [MaxLength(16)]
+        [StringLength(16, MinimumLength = 6, ErrorMessage = "Password should be between 6 and 16 characters")]
         public string Password { get; set; } = null!;
 
         [Required]

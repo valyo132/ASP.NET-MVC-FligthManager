@@ -13,11 +13,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fligth.Models", "Fligth.Mod
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{181A8836-64AE-48FF-806E-7F7F59A3FFF0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fligth.Web.ViewModels", "Fligth.Web.ViewModels\Fligth.Web.ViewModels.csproj", "{5B364404-6C9C-4FF5-87C3-8E92E485FE9B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fligth.Web.ViewModels", "Fligth.Web.ViewModels\Fligth.Web.ViewModels.csproj", "{5B364404-6C9C-4FF5-87C3-8E92E485FE9B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{29CE3982-E961-45F6-A179-8423E3985ED3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fligth.Services.Mapping", "Fligth.Services.Mapping\Fligth.Services.Mapping.csproj", "{927931D9-8093-4A97-833E-2369FFC60AE4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fligth.Services.Mapping", "Fligth.Services.Mapping\Fligth.Services.Mapping.csproj", "{927931D9-8093-4A97-833E-2369FFC60AE4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fligth.Services.Data", "Fligth.Services.Data\Fligth.Services.Data.csproj", "{0DF67F43-33B5-4885-8A13-2E6BF6EB18F2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{927931D9-8093-4A97-833E-2369FFC60AE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{927931D9-8093-4A97-833E-2369FFC60AE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{927931D9-8093-4A97-833E-2369FFC60AE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DF67F43-33B5-4885-8A13-2E6BF6EB18F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DF67F43-33B5-4885-8A13-2E6BF6EB18F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DF67F43-33B5-4885-8A13-2E6BF6EB18F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DF67F43-33B5-4885-8A13-2E6BF6EB18F2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -55,6 +61,7 @@ Global
 		{25CAE869-40EE-42A6-B606-81D60C88A5BE} = {F5BFECFE-B079-4224-9E94-D6AF2D8DE4B4}
 		{5B364404-6C9C-4FF5-87C3-8E92E485FE9B} = {181A8836-64AE-48FF-806E-7F7F59A3FFF0}
 		{927931D9-8093-4A97-833E-2369FFC60AE4} = {29CE3982-E961-45F6-A179-8423E3985ED3}
+		{0DF67F43-33B5-4885-8A13-2E6BF6EB18F2} = {29CE3982-E961-45F6-A179-8423E3985ED3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {683CD3A5-D30D-48A5-B542-4D0A4983F73C}

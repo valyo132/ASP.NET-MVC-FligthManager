@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Fligth.Models\Fligth.Models.csproj" />
+    <ProjectReference Include="..\Fligth.Services.Mapping\Fligth.Services.Mapping.csproj" />
+    <ProjectReference Include="..\Fligth.Web.ViewModels\Fligth.Web.ViewModels.csproj" />
+    <ProjectReference Include="..\Fligth.Web\Fligth.Web.csproj" />
+  </ItemGroup>
+
+</Project>

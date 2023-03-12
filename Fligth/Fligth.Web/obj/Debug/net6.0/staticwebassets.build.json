@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ExBM/yCzxfO7WrqUlbRCR3UzMEKKRz8BiJ9ZEFtz+Hc=",
+  "Hash": "kLxEX7f0L9SlN7qBMb0FTSX/2clMiG8KSSTnxWaFSYk=",
   "Source": "Fligth.Web",
   "BasePath": "_content/Fligth.Web",
   "Mode": "Default",
@@ -49,6 +49,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "G:\\ASP.NET-MVC-FligthManager\\Fligth\\Fligth.Web\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Fligth.Web.bundle.scp.css"
+    },
+    {
+      "Identity": "G:\\ASP.NET-MVC-FligthManager\\Fligth\\Fligth.Web\\wwwroot\\css\\registerLayout.css",
+      "SourceId": "Fligth.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "G:\\ASP.NET-MVC-FligthManager\\Fligth\\Fligth.Web\\wwwroot\\",
+      "BasePath": "_content/Fligth.Web",
+      "RelativePath": "css/registerLayout.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\registerLayout.css"
     },
     {
       "Identity": "G:\\ASP.NET-MVC-FligthManager\\Fligth\\Fligth.Web\\wwwroot\\css\\site.css",

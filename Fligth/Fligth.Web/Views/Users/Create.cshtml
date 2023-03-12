@@ -6,38 +6,45 @@
 
 <form asp-action="Create" asp-controller="Users" method="post">
     <div class="register-grid">
+        @*<div asp-validation-summary="All"></div>*@
         <div>
             <label asp-for="FirstName" style="display:block"></label>
-            <input asp-for="FirstName" />
+            <input asp-for="FirstName" class="input-box" />
             <br />
             <span asp-validation-for="FirstName" style="color:red"></span>
         </div>
         <div>
             <label asp-for="LastName" style="display:block"></label>
-            <input asp-for="LastName" />
+            <input asp-for="LastName" class="input-box" />
             <br />
             <span asp-validation-for="LastName" style="color:red"></span>
         </div>
         <div>
             <label asp-for="EGN" style="display:block"></label>
-            <input asp-for="EGN"/>
+            <input asp-for="EGN" class="input-box" />
             <br />
             <span asp-validation-for="LastName" style="color:red"></span>
         </div>
         <div>
             <label asp-for="Password" style="display:block"></label>
-            <input asp-for="Password" type="password" />
+            <input asp-for="Password" type="password" class="input-box" />
             <br />
             <span asp-validation-for="Password" style="color:red"></span>
         </div>
         <div>
             <label asp-for="Email" style="display:block"></label>
-            <input asp-for="Email" />
+            <input asp-for="Email" class="input-box" />
             <br />
             <span asp-validation-for="Email" style="color:red"></span>
         </div>
         <br />
-        <button type="submit">Create</button>
+        <button class="create-button" type="submit" style="display:block">Create</button>
+        <a asp-action="LogIn" asp-controller="Users">You already have an account?</a>
     </div>
 </form>
 
+@section Scripts{
+    @{
+        <partial name="_ValidationScriptsPartial" />
+    }
+}
